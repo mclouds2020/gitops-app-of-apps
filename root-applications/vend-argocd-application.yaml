@@ -14,8 +14,8 @@ spec:
     helm:
       valueFiles:
         - values.yaml
-    path: "charts/vend-helm"
-    repoURL: "https://github.com/thomassuedbroecker/vend-helm"
+    path: "nginx"
+    repoURL: "https://github.com/invisibl-labs/labs-senthil"
     targetRevision: HEAD
   syncPolicy:
     retry:
