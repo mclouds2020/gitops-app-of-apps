@@ -18,6 +18,8 @@ spec:
     repoURL: "https://github.com/invisibl-labs/labs-senthil"
     targetRevision: HEAD
   syncPolicy:
+    syncOptions:
+      - CreateNamespace=true
     retry:
       backoff:
         duration: 5s
