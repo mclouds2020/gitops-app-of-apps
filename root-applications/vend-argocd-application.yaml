@@ -9,7 +9,7 @@ spec:
   destination:
     name: in-cluster
     namespace: vend
-  project: root-application
+  project: deafult
   source:
     helm:
       valueFiles:
